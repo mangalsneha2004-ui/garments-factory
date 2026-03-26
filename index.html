@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML SCSS JS BOOTSTRAP">
+    <title>Index</title>
+    <link rel="stylesheet" href="assets/Css/style.css">
+    <link rel="stylesheet" href="assets/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/static/SpaceGrotesk-Bold.ttf">
+    <!-- font awasome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link href="https://fonts.cdnfonts.com/css/space-grotesk" rel="stylesheet">
+       <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <!-- aos animation  -->
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<main>
+    <!-- -------------------------------------------------------- nav start -------------------------------------------------------- -->
+     <div class="top-nav">
+<div class="top-header d-none d-lg-block">
+        <div class="container-xl container-fluid">
+           <div class="row">
+            <div class="col-lg-9 col-xl-9 col-md-7 d-sm-block d-none">
+                <ul class="list-unstyled d-flex align-items-center justify-content-between mb-0 flex-wrap">
+                    <li><span><i class="fa-brands fa-viber"></i></span> <a href="tel: +123-234-1234">+123-234-1234</a></li>
+                    <li><span><i class="fa-regular fa-envelope"></i></span> <a href="hello@awesomesite.com">hello@awesomesite.com</a></li>
+                    <li><span><i class="fa-regular fa-compass"></i></span> <a href="tel: +123-234-1234">KLLG st, No.99, Pku City, ID 28289</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-xl-3 col-md-4 d-sm-block d-none mb-0">
+                <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+     </div>
+     <nav class="navbar navbar-expand-lg">
+     <div class="container-lg container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="https://gtkit.rometheme.pro/garmen/wp-content/uploads/sites/17/2023/02/Logo.png" alt="" class="img-fluid">
+    </a>
+    <button class="btn d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+      <span class="fa-solid fa-bars-staggered"></span>
+    </button>
+    <div class="collapse navbar-collapse"id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About_Us">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Services">service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#Blog">blog</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link"  href="#Our_Work">Projects</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link"  href="#Contact_Us">contact</a>
+        </li>
+      </ul>
+      <form action="">
+        <button class="btn">Make Project</button>
+      </form>
+    </div>
+    <div class="offcanvas offcanvas-end d-lg-none d-block" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <a class="navbar-brand" href="#"id="offcanvasRightLabel">
+        <img src="https://gtkit.rometheme.pro/garmen/wp-content/uploads/sites/17/2023/02/Logo.png" alt="" class="img-fluid">
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">service</a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link"  href="#">blog</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link"  href="#">contact</a>
+        </li>
+      </ul>
+      <div class="offcanvas-contact">
+                            <div class="widget footer-widget">
+                                <h3 class="widget_title">Contact Us</h3>
+                                <div class="th-widget-contact">
+                                    <div class="contact-feature">
+                                        <div class="icon-btn"><a href="#"> <i class="fa-solid fa-phone"></i></a></div>
+                                        <div class="media-body">
+                                            <p class="contact-feature_label">Phone Number</p><a href="tel:123456789">123456789</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-feature">
+                                        <div class="icon-btn"><a href="#"><i class="fa-solid fa-envelope"></i></a></div>
+                                        <div class="media-body">
+                                            <p class="contact-feature_label">Email address</p> <a href="mailto:  Support :-  bestpaytechnologies@gmail.com">  Support :-  bestpaytechnologies@gmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-feature">
+                                        <div class="icon-btn"><a href="#"><i class="fa-solid fa-location-dot"></i></a></div>
+                                        <div class="media-body">
+                                            <p class="contact-feature_label">office location</p>  <a href="#">dengapadar Ganjam Orissa pin 761146  </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offcanvas-social">
+                            <h4 class="offcanvas-title-meta">Follow Us</h4>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+  </div>
+    </div>
+     </div>
+     </nav>
+     </div>
+    <!-- -------------------------------------------------------- nav end -------------------------------------------------------- -->
+    <!-- -------------------------------------------------------- Header start -------------------------------------------------------- -->
+     <header class="">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8 col-xl-7 col-md-10 col-sm-11 col-12">
+            <div class="content">
+              <div class="main-heading">
+                <h1>World Class Technical <span>Textiles</span> </h1>
+                <p>Professional cleaning services for offices, homes, and commercial spaces – done right, every time.</p>
+                <!-- <button class="common_btn btn">Discover More</button> -->
+                <button class="button button--janus"><span>Reshape</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </header>
+    <!-- -------------------------------------------------------- Header end -------------------------------------------------------- -->
+    <!-- -------------------------------------------------------- About us start -------------------------------------------------------- -->
+     <section class="about-us parallax-section"id="About_Us">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="img-part"data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/h1_img-1.jpg" alt="" class="img-fluid h-100 w-100">
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6">
+            <div class="content"data-aos="zoom-out-up" data-aos-duration="1500">
+              <div class="sub-heading">01. About Us</div>
+              <div class="heading">
+                <h1>The Best Solution for all Industrial & Factory Businesses</h1>
+              </div>
+              <p>In 1999, Extice entered the textile sector with its manufacturing facilities of cotton yarn. Combining modern technology with skilled manpower under Extice unique inspiring, atmosphere, this new venture soon rose to the top of the local textile industry. Today it has one of the most sophisticated vertically integrated set-ups.</p>
+               </div>
+                <div class="d-block align-items-start justify-content-start position-relative"data-aos="zoom-out-up" data-aos-duration="2000">
+                <ul style="padding-left: 1rem;" class="position-relative">
+                  <li>3 Factories ,36400㎡ covering, 150+ workers</li>
+                  <li>professional quality inspection teams</li>
+                  <li>Focus on Sustainability</li>
+                  <li>Product Design & Development</li>
+                </ul>
+                <div class="widge-img-1">
+          <img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/h1_img-2.jpg" alt="" class="img-fluid  d-none d-xl-block">
+                </div>
+            </div>
+            <button class="btn common-btn"data-aos="zoom-out-up" data-aos-duration="2500">View More</button>
+          </div>
+        </div>
+         <!-- <div class="widge-img-2">
+          <img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/h1_img-3.png" alt="" class="img-fluid">
+        </div> -->
+      </div>
+     </section>
+    <!-- -------------------------------------------------------- About us end -------------------------------------------------------- -->
+    <!-- -------------------------------------------------------- Services start -------------------------------------------------------- -->
+     <section class="Services parallax-section"id="Services">
+      <div class="container-lg container-fulid">
+        <div class="row">
+          <div class="col-lg-6 col-md-9 col-sm-10">
+            <div class="content"data-aos="zoom-in" data-aos-duration="1500">
+              <div class="sub-heading">02. Featured Services </div>
+              <div class="heading">
+                <h1>Find the perfect material with our service</h1>
+              </div>
+              <p>From design, weaving and finishing to coating and fabrication, our specialists create technically advanced products that are integral to mission-critical applications all over the world.</p>
+               </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-12">
+            <div class="service-box"data-aos="zoom-out-right"data-aos-duration="3000">
+              <div class="icon-box"><i class="fa-brands fa-google-wallet" style="color: #96496cff;"></i></div>
+              <h2 class="service-box-heading">Fabric Dyeing Technology</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor, eum quia aliquam nam illum obcaecati voluptatem in eaque deleniti.</p>
+              <a href="#"> read more </a>
+            </div>
+          </div>
+           <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-12">
+            <div class="service-box"data-aos="zoom-out-right"data-aos-duration="2500">
+              <div class="icon-box"><i class="fa-brands fa-google-wallet" style="color: #96496cff;"></i></div>
+              <h2 class="service-box-heading">Fabric Dyeing Technology</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor, eum quia aliquam nam illum obcaecati voluptatem in eaque deleniti.</p>
+              <a href="#"> read more </a>
+            </div>
+          </div>
+           <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-12">
+            <div class="service-box"data-aos="zoom-out-right"data-aos-duration="2000">
+              <div class="icon-box"><i class="fa-brands fa-google-wallet" style="color: #96496cff;"></i></div>
+              <h2 class="service-box-heading">Fabric Dyeing Technology</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor, eum quia aliquam nam illum obcaecati voluptatem in eaque deleniti.</p>
+              <a href="#"> read more </a>
+            </div>
+          </div>
+           <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-12">
+            <div class="service-box"data-aos="zoom-out-right"data-aos-duration="1500">
+              <div class="icon-box"><i class="fa-brands fa-google-wallet" style="color: #96496cff;"></i></div>
+              <h2 class="service-box-heading">Fabric Dyeing Technology</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor, eum quia aliquam nam illum obcaecati voluptatem in eaque deleniti.</p>
+              <a href="#"> read more </a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- -------------------------------------------------------- Services end -------------------------------------------------------- -->
+      <!-- -------------------------------------------------------- Our Work start -------------------------------------------------------- -->
+     <section class="why-choose-us parallax-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 px-lg-0">
+            <img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/h2_img3.jpg" alt="" class="img-fluid h-100 w-100">
+          </div>
+          <div class="col-lg-6">
+             <div class="content"data-aos="zoom-in" data-aos-duration="1500">
+              <div class="sub-heading">03. why choose us</div>
+              <div class="heading">
+                <h1>we the leading textile market</h1>
+              </div>
+              <p>We are committed to integrating sustainability, environmental stewardship, and ethical governance into our business. As a leader in technical textiles, we recognise the responsibility we have in reducing our environmental impact, fostering a positive social footprint, and ensuring ethical and transparent governance practices.</p>
+              <div class="progress-bar">
+
+  <div class="progress-item" data-percent="85">
+    <div class="progress-header">
+      <span>Textile services</span>
+      <span class="progress-percent">0%</span>
+    </div>
+    <div class="progress-line">
+      <div class="progress-fill"></div>
+    </div>
+  </div>
+
+  <div class="progress-item" data-percent="95">
+    <div class="progress-header">
+      <span>Industrial Work</span>
+      <span class="progress-percent">0%</span>
+    </div>
+    <div class="progress-line">
+      <div class="progress-fill"></div>
+    </div>
+  </div>
+
+  <div class="progress-item" data-percent="65">
+    <div class="progress-header">
+      <span>Home Textiles</span>
+      <span class="progress-percent">0%</span>
+    </div>
+    <div class="progress-line">
+      <div class="progress-fill"></div>
+    </div>
+  </div>
+
+</div>
+<div class="d-flex align-items-center justify-content-start">
+  <div class="icon-box">
+    <i class="fa-brands fa-cotton-bureau"></i>
+  </div>
+  <div class="Productions">
+    <h3 class="heading">Productions If Fabrics</h3>
+    <hr>
+    <p>Textiles are materials made from fibers lorem ipsu yarn are used create widetest range</p>
+  </div>
+</div>
+            </div>
+                </div>
+        </div>
+      </div>
+     </section>
+    <!-- -------------------------------------------------------- Our Work end -------------------------------------------------------- -->
+    <!-- -------------------------------------------------------- Marquee start -------------------------------------------------------- -->
+     <!-- <section class="Marquee parallax-section"></section> -->
+    <!-- -------------------------------------------------------- Marquee end -------------------------------------------------------- -->
+    <!-- -------------------------------------------------------- Our Work start -------------------------------------------------------- -->
+     <section class="our-work parallax-section mt-0"id="Our_Work">
+       <div class="container-lg container-fulid">
+        <div class="row">
+          <div class="col-lg-8 col-xl-6 col-md-9 col-sm-10">
+            <div class="content"data-aos="zoom-in" data-aos-duration="1500">
+              <div class="sub-heading">04. Our Advantage</div>
+              <div class="heading">
+                <h1>Source the highest quality yarn from trusted suppliers</h1>
+              </div>
+              <p>Textiles are materials made from fibers or yarn, and they are used to create widetest range of products such as clothing and industrial goods.</p>
+               </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8 col-md-12">
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/h1_img-4.jpg" alt=""data-aos="zoom-in" data-aos-duration="1500" class="img-fluid">
+              </div>
+              <div class="col-md-6  mb-4">
+                <div class="box"data-aos="zoom-in" data-aos-duration="1500">
+                  <div class="d-flex align-items-start justify-content-between">
+                  <h4 class="heading">Quality Assurance</h4>
+                  <div class="icon"><img src="Images/our-work-sweing.png" alt=""></div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+              </div>
+              <div class="col-md-6  mb-4">
+                <div class="box"data-aos="zoom-in" data-aos-duration="1500">
+                  <div class="d-flex align-items-start justify-content-between">
+                  <h4 class="heading">Quality Assurance</h4>
+                  <div class="icon"><img src="Images/our-work-sweing.png" alt=""></div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+              </div>
+              <div class="col-md-6  mb-4">
+                <div class="box"data-aos="zoom-in" data-aos-duration="1500">
+                  <div class="d-flex align-items-start justify-content-between">
+                  <h4 class="heading">Quality Assurance</h4>
+                  <div class="icon"><img src="Images/our-work-sweing.png" alt=""></div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 mb-4 d-none d-lg-block">
+            <img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/h1_img-4.jpg" alt="" class="img-fluid h-100"data-aos="zoom-in" data-aos-duration="1500">
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- -------------------------------------------------------- Our Work end -------------------------------------------------------- -->
+     <!-- -------------------------------------------------------- Contact us start -------------------------------------------------------- -->
+    <section class="our-work-video">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+             <video autoplay muted loop playsinline data-aos="fade-up" data-aos-duration="3000">
+        <source src="https://arville.com/wp-content/uploads/2025/04/homepage-header-video-.mp4" type="video/mp4"/>
+    </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------------------------------------- Contact us end -------------------------------------------------------- -->
+    <!-- -------------------------------------------------------- Our Clients start -------------------------------------------------------- -->
+    <section class="our-clients parallax-section">
+      <div class="container-fluid">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-7 col-xl-6 col-md-8 col-sm-12">
+            <div class="content"data-aos="zoom-in" data-aos-duration="1500">
+              <div class="sub-heading mx-auto">05. Customer testimonials</div>
+              <div class="heading">
+                <h1>What people says about Textile company</h1>
+              </div>
+               </div>
+          </div>
+        </div>
+        <div class="owl-carousel owl-theme">
+          <div class="item" data-aos="zoom-in-down" data-aos-duration="1500">
+            <div class="testimonial-box">
+              <div class="quote-part">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              <ul class="list-unstyled d-flex align-items-center">
+                <li>
+                  <div class="rating-box">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h4 class="heading">Excellent Services</h4>
+                </li>
+              </ul>
+              <hr>
+              <p class="clients-words">“These services involve cleaning and washing textiles, such as clothing, linens, and towels. Laundering services can be provided by com mercial laundry facilities hotels"</p>
+            </div>
+            <div class="testimonial-details">
+              <ul class="list-unstyled d-flex align-items-center">
+                <li><img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/avatar-4.jpg" alt="" class="img-fluid"></li>
+                <li>
+                  <div class="details-info">
+                    <h5 class="name">Johan Due</h5>
+                    <p>consultant</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+           <div class="item" data-aos="zoom-in-down" data-aos-duration="1500">
+            <div class="testimonial-box">
+              <div class="quote-part">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              <ul class="list-unstyled d-flex align-items-center">
+                <li>
+                  <div class="rating-box">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h4 class="heading">Excellent Services</h4>
+                </li>
+              </ul>
+              <hr>
+              <p class="clients-words">“These services involve cleaning and washing textiles, such as clothing, linens, and towels. Laundering services can be provided by com mercial laundry facilities hotels"</p>
+            </div>
+            <div class="testimonial-details">
+              <ul class="list-unstyled d-flex align-items-center">
+                <li><img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/avatar-4.jpg" alt="" class="img-fluid"></li>
+                <li>
+                  <div class="details-info">
+                    <h5 class="name">Johan Due</h5>
+                    <p>consultant</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+           <div class="item" data-aos="zoom-in-down" data-aos-duration="1500">
+            <div class="testimonial-box">
+              <div class="quote-part">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              <ul class="list-unstyled d-flex align-items-center">
+                <li>
+                  <div class="rating-box">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h4 class="heading">Excellent Services</h4>
+                </li>
+              </ul>
+              <hr>
+              <p class="clients-words">“These services involve cleaning and washing textiles, such as clothing, linens, and towels. Laundering services can be provided by com mercial laundry facilities hotels"</p>
+            </div>
+            <div class="testimonial-details">
+              <ul class="list-unstyled d-flex align-items-center">
+                <li><img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/avatar-4.jpg" alt="" class="img-fluid"></li>
+                <li>
+                  <div class="details-info">
+                    <h5 class="name">Johan Due</h5>
+                    <p>consultant</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+           <div class="item" data-aos="zoom-in-down" data-aos-duration="1500">
+            <div class="testimonial-box">
+              <div class="quote-part">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              <ul class="list-unstyled d-flex align-items-center">
+                <li>
+                  <div class="rating-box">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h4 class="heading">Excellent Services</h4>
+                </li>
+              </ul>
+              <hr>
+              <p class="clients-words">“These services involve cleaning and washing textiles, such as clothing, linens, and towels. Laundering services can be provided by com mercial laundry facilities hotels"</p>
+            </div>
+            <div class="testimonial-details">
+              <ul class="list-unstyled d-flex align-items-center">
+                <li><img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/avatar-4.jpg" alt="" class="img-fluid"></li>
+                <li>
+                  <div class="details-info">
+                    <h5 class="name">Johan Due</h5>
+                    <p>consultant</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+           <div class="item" data-aos="zoom-in-down" data-aos-duration="1500">
+            <div class="testimonial-box">
+              <div class="quote-part">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              <ul class="list-unstyled d-flex align-items-center">
+                <li>
+                  <div class="rating-box">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h4 class="heading">Excellent Services</h4>
+                </li>
+              </ul>
+              <hr>
+              <p class="clients-words">“These services involve cleaning and washing textiles, such as clothing, linens, and towels. Laundering services can be provided by com mercial laundry facilities hotels"</p>
+            </div>
+            <div class="testimonial-details">
+              <ul class="list-unstyled d-flex align-items-center">
+                <li><img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/avatar-4.jpg" alt="" class="img-fluid"></li>
+                <li>
+                  <div class="details-info">
+                    <h5 class="name">Johan Due</h5>
+                    <p>consultant</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+           <div class="item" data-aos="zoom-in-down" data-aos-duration="1500">
+            <div class="testimonial-box">
+              <div class="quote-part">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              <ul class="list-unstyled d-flex align-items-center">
+                <li>
+                  <div class="rating-box">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h4 class="heading">Excellent Services</h4>
+                </li>
+              </ul>
+              <hr>
+              <p class="clients-words">“These services involve cleaning and washing textiles, such as clothing, linens, and towels. Laundering services can be provided by com mercial laundry facilities hotels"</p>
+            </div>
+            <div class="testimonial-details">
+              <ul class="list-unstyled d-flex align-items-center">
+                <li><img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/avatar-4.jpg" alt="" class="img-fluid"></li>
+                <li>
+                  <div class="details-info">
+                    <h5 class="name">Johan Due</h5>
+                    <p>consultant</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+           <div class="item" data-aos="zoom-in-down" data-aos-duration="1500">
+            <div class="testimonial-box">
+              <div class="quote-part">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              <ul class="list-unstyled d-flex align-items-center">
+                <li>
+                  <div class="rating-box">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h4 class="heading">Excellent Services</h4>
+                </li>
+              </ul>
+              <hr>
+              <p class="clients-words">“These services involve cleaning and washing textiles, such as clothing, linens, and towels. Laundering services can be provided by com mercial laundry facilities hotels"</p>
+            </div>
+            <div class="testimonial-details">
+              <ul class="list-unstyled d-flex align-items-center">
+                <li><img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/08/avatar-4.jpg" alt="" class="img-fluid"></li>
+                <li>
+                  <div class="details-info">
+                    <h5 class="name">Johan Due</h5>
+                    <p>consultant</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+</div>
+<div class="any_que"data-aos="zoom-in" data-aos-duration="1500">
+  <h2>any question? <span> <a href="#" target="_blank">we're ready to help!</a></span> </h2>
+</div>
+      </div>
+    </section>
+    <!-- -------------------------------------------------------- Our Clients end -------------------------------------------------------- -->
+    <!-- -------------------------------------------------------- Contact us start -------------------------------------------------------- -->
+    <section class="contact-us parallax-section"id="Contact_Us">
+      <div class="container-md container-fluid">
+        <div class="row">
+          <div class="col-lg-8 col-xl-7 col-md-9 col-sm-12">
+            <div class="content"data-aos="zoom-in" data-aos-duration="1000">
+              <div class="sub-heading">06. get in touch</div>
+              <div class="heading">
+                <h1>Need Any Textiles Services Help?</h1>
+              </div>
+              <ul class="list-unstyled d-flex align-items-start justify-content-between flex-wrap">
+                <li>
+                  <h4 class="heading">Support</h4>
+                  <h4 class="phn_number">+(084) 456-0789</h4>
+                  <a href="#" class="mail">support@example.com</a>
+                </li> 
+                <li>
+                  <h4 class="heading">Address</h4>
+                  <a href="#" class="address">5609 E Sprague Ave, Spokane Valley, WA 99212, USA</a>
+                </li>
+              </ul>
+              <button class="btn common-btn">Contact us</button>
+               </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------------------------------------- Contact us end -------------------------------------------------------- -->
+    <!-- -- --------------------------------------------------------Blog start -- -------------------------------------------------------- -->
+    <!-- -- --------------------------------------------------------Blog end -- -------------------------------------------------------- -->
+    <section class="blog parallax-section"id="Blog">
+      <div class="container-xl container-fluid">
+        <div class="row align-items-start">
+          <div class="col-lg-4 col-md-5 col-12">
+            <div class="content"data-aos="zoom-in" data-aos-duration="1500">
+              <div class="sub-heading">07. See What's New</div>
+              <div class="heading">
+                <h1>Learn about
+our latest news from blog.</h1>
+              </div>
+               </div>
+          </div>
+          <div class="col-lg-8 col-md-7 col-12">
+            <div class="scrollable-part">
+              <div class="trade_n_bussiness"data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000">
+                <button class="btn common_btn">trade & bussiness</button>
+                <div class="image-wrapper">
+                <img src="	https://demo2.wpopal.com/extice/wp-content/uploads/2025/07/blog_1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h6 class="sub-title">Byadmin</h6>
+                  <h1 class="heading">The great potential that the textile industry has brought</h1>
+                </div>
+              </div>
+              <div class="textite-world d-flex align-items-start flex-wrap flex-sm-nowrap">
+                <div class="textite-world-img">
+                  <img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/07/blog_2.jpg" alt="" class="img-fluid">
+                </div>
+                 <div class="textite-world-content">
+                   <h6 class="sub-title">Byadmin</h6>
+                  <h1 class="heading">The great potential that the textile industry has brought</h1>
+                  <a href="#"> read more </a>
+                </div>
+              </div>
+              <div class="textite-world d-flex align-items-start flex-wrap flex-sm-nowrap">
+                <div class="textite-world-img">
+                  <img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/07/blog_2.jpg" alt="" class="img-fluid">
+                </div>
+                 <div class="textite-world-content">
+                   <h6 class="sub-title">Byadmin</h6>
+                  <h1 class="heading">The great potential that the textile industry has brought</h1>
+                  <a href="#"> read more </a>
+                </div>
+              </div>
+              <div class="textite-world d-flex align-items-start flex-wrap flex-sm-nowrap">
+                <div class="textite-world-img">
+                  <img src="https://demo2.wpopal.com/extice/wp-content/uploads/2025/07/blog_2.jpg" alt="" class="img-fluid">
+                </div>
+                 <div class="textite-world-content">
+                   <h6 class="sub-title">Byadmin</h6>
+                  <h1 class="heading">The great potential that the textile industry has brought</h1>
+                  <a href="#"> read more </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------------------------------------- Footer start -------------------------------------------------------- -->
+    <footer class="parallax-section pb-0">
+      <div class="container-lg container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-10 col-sm-12 text-center">
+            <div class="content"data-aos="zoom-in" data-aos-duration="1500">
+              <a class="navbar-brand" href="#">
+        <img src="https://gtkit.rometheme.pro/garmen/wp-content/uploads/sites/17/2023/02/Logo.png" alt="" class="img-fluid">
+    </a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident accusantium corporis ipsum vero? Distinctio quaerat dolorem cupiditate molestiae esse.</p>
+    <hr>
+    <a href="#">1120 Lorem ipsum dolor sit amet, KC 179050, Chandigarh.</a>
+    <ul class="list-unstyled d-flex align-items-start justify-content-center">
+      <li><a href="#">+01 2345 6789 12</a></li>
+      <li style="margin: 0 10px;color: white;">|</li>
+      <li><a href="#">+01 2345 6789 12</a></li>
+    </ul>
+    <ul class="list-unstyled d-flex align-items-start justify-content-evenly link-icons">
+      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+    </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="footer-bottom">
+              <p class="copyright">Copyright © 2019 All Rights Reserved.</p>
+            </div>
+    </footer>
+    <!-- -------------------------------------------------------- Footer end -------------------------------------------------------- -->
+</main>
+<!-- aos animation  -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="assets/Js/script.js"></script>
+<script src="assets/Js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
